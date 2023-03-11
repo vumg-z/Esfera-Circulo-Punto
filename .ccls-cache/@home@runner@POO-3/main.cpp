@@ -14,4 +14,11 @@ int main() {
   Esfera esfera(10, 0, 0);
   cout << "area esfera: " << esfera.getArea() << endl;
   cout << "volumen esfera: " << esfera.getVolumen() << endl;
+
+  // distancia entre dos puntos, punto y otroPunto
+  Punto punto(3, 25);
+  Punto otroPunto(20, 6);
+
+  std::cout << "la distancia entre los puntos es: ";
+  std::cout << punto.distanciaEntreDosPuntos(otroPunto);
 }

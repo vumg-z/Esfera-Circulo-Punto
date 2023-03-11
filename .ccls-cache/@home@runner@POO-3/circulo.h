@@ -18,6 +18,8 @@ public:
     this->radio = radio;
   }
 
+  Circulo() {}
+
   double getArea() { return M_PI * (radio * radio); }
 
   double getPerimetro() { return radio * 2 * M_PI; }

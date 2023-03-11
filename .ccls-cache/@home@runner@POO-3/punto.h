@@ -20,8 +20,7 @@ public:
   Punto() {}
 
   double distanciaEntreDosPuntos(Punto otroPunto) {
-    double distancia = sqrt(pow(otroPunto.x - x, 2) + pow(otroPunto.y - y, 2));
-    return distancia;
+    return sqrt(pow(otroPunto.x - x, 2) + pow(otroPunto.y - y, 2));
   }
 
   int getX() { return x; }
