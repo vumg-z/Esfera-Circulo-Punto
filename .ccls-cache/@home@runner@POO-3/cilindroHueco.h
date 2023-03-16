@@ -10,6 +10,7 @@ private:
   Circulo circuloInterno;
   int altura;
 
+public:
   CilindroHueco(int r, int rInterno) {
     // x/y están inicializadas a 0 porque son inutiles
     this->circulo = Circulo(r, 0, 0);
